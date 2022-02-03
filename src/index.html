@@ -289,8 +289,19 @@ color:red;
   .orange-text{
     color: #FFA500;
   }
+  :root {
+    --red-color: red;
+  }
+  .red-box1 {
+background:red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+  
+  
 </style>
-
+<div class="red-box1"></div>
 <body class="color">
   <div class="penguin">
     <div class="penguin-bottom">
